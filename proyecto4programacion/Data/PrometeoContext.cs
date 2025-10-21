@@ -7,7 +7,6 @@ namespace proyecto4programacion.Data
 {
     public class PrometeoContext : DbContext
     {
-
         public DbSet<Solicitud> Solicitudes { get; set; }
 
         public PrometeoContext(DbContextOptions<PrometeoContext> options) : base(options) { }
